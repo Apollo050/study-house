@@ -1,0 +1,9 @@
+{website = website.replace(/https/, "http") + "&pagesize=100";
+  	let headers = new Headers({'Content-Type': 'application/json'})
+  	let reqOpts = new RequestOptions({
+  		url: "https://exultant-runner.glitch.me/getpaperlist",
+  		method: RequestMethod.Get,
+  		body: website,
+  		headers: headers});
+  	let req = new Request(reqOpts)
+  	return this.http.request(req);}
