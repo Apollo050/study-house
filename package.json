@@ -1,0 +1,34 @@
+{
+  "name": "study-house",
+  "version": "1.0.2",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "package.json",
+
+    "status": "Helping members on Study House"
+  },
+  "author": "Apollo050, newomadness",
+  "license": "MIT",
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "discord.js-reaction-menu": "^1.0.1",
+    "discordjs-prompter": "^1.3.2",
+    "express": "^4.17.1",
+    "opusscript": "0.0.7",
+    "quick.db": "^6.3.2",
+    "yt-search": "^2.5.1",
+    "ytdl-core": "^1.0.7",
+    "ascii-table": "^0.0.9",
+    "common-tags": "^1.8.0",
+    "node-schedule": "^1.3.2",
+    "util": "^0.12.3",
+    "node-lyrics": "^2.1.0",
+    "utils": "^0.3.1" ,
+    "main": "server.js" ,
+"scripts": {
+"main": "node.js",
+}
